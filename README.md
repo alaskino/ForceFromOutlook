@@ -177,4 +177,4 @@ Nickname: **Alaska**
 
 ## License
 
-No license selected yet.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
