@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<customUI
+    xmlns="http://schemas.microsoft.com/office/2009/07/customui"
+    onLoad="Ribbon_Load">
+
+	<ribbon>
+		<tabs>
+
+			<!-- Finestra principale Outlook / Posta -->
+			<tab idMso="TabMail">
+
+				<group
+					id="ForceFromMainGroup"
+					getLabel="GetGroupLabel">
+
+					<toggleButton
+						id="ForceFromMainToggle"
+						size="large"
+						getLabel="GetLabel"
+						getPressed="GetPressed"
+						getImage="GetImage"
+						getSupertip="GetSuperTip"
+						onAction="ToggleForceFrom" />
+
+				</group>
+
+			</tab>
+
+
+			<!-- Finestra di composizione di un messaggio -->
+			<tab idMso="TabNewMailMessage">
+
+				<group
+					id="ForceFromComposeGroup"
+					getLabel="GetGroupLabel">
+
+					<toggleButton
+						id="ForceFromComposeToggle"
+						size="large"
+						getLabel="GetLabel"
+						getPressed="GetPressed"
+						getImage="GetImage"
+						getSupertip="GetSuperTip"
+						onAction="ToggleForceFrom" />
+
+				</group>
+
+			</tab>
+
+		</tabs>
+	</ribbon>
+
+</customUI>

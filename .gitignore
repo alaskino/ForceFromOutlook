@@ -1,0 +1,38 @@
+cat > .gitignore <<'EOF'
+# Visual Studio
+.vs/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# User-specific Visual Studio files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Certificates / signing keys
+*.pfx
+*.p12
+*.snk
+
+# Build / publish output
+publish/
+Publish/
+app.publish/
+
+# NuGet
+packages/
+*.nupkg
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+EOF
